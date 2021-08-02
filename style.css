@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+}
+
+div {
+    //background-color: lightgray;
+    box-shadow: 10px 5px 15px gray;
+    margin: 10px 10px;
+
+}
+
+.units > * {
+    padding: 5px 15px;
+    width: 95px;
+    height: 30px; 
+    border: 1px solid gray;
+    box-shadow: 1px 0px 2px black,
+    -1px 0 2px black
+}
+
+.purchase-button:hover {
+    background-color:  lightgray;
+}
