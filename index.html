@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <meta name="keywords" content="clicker">
-  </head>
-  <body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="keywords" content="clicker">
+</head>
+	
+<body>
+    <header>
+        <div id="status-bard">
+            <span id="bank-display">$ 0</span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <div class="units">
+            <span id="unit-1" class="unit-amount"></span>
+            <span id="cost-1" class="unit-cost"></span>
+            <span id="speed-1" class="unit-speed"></span>
+            <button id="purchase-1" class="purchase-button"></button>
+        </div>
+        <div class="units"></div>
+        <div class="units"></div>
+    </main>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
