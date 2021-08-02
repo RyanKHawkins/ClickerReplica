@@ -4,20 +4,36 @@ body {
 
 div {
     //background-color: lightgray;
-    box-shadow: 10px 5px 15px gray;
-    margin: 10px 10px;
+    //box-shadow: 10px 5px 15px gray;
+    margin-top: 25px;
+    height: 50px;
+    border: 1px solid black;
+}
 
+.units {
+    position: absolute;
+    width:  95%;
+    text-align: center
 }
 
 .units > * {
     padding: 5px 15px;
-    width: 95px;
-    height: 30px; 
-    border: 1px solid gray;
-    box-shadow: 1px 0px 2px black,
-    -1px 0 2px black
+    //height: 30px; 
+    //border: 1px solid gray;
+    box-shadow: 1px 0px 5px gray,
+    -1px 0 5px gray;
+    border-radius: 2.5px;
+    transition: .25s;
+
+    position: relative;
+    top: 30%
+
 }
 
-.purchase-button:hover {
+.units > *:hover {
     background-color:  lightgray;
+    transition: .5s;
+    box-shadow: 1px 0px 7.5px gray,
+    -1px 0 7.5px gray;
 }
+
